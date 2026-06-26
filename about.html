@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me — Tassiane Medeiros</title>
+  <meta name="description" content="About Tassiane Medeiros, Digital Product Designer.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Tassiane Medeiros — Home">
+        <img src="assets/logo.svg" alt="Tassiane Medeiros" width="206" height="45">
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="projects.html">Personal projects</a></li>
+          <li><a href="contact.html">Send a message</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+      <ul>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="projects.html">Personal projects</a></li>
+        <li><a href="contact.html">Send a message</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="placeholder-section">
+      <div class="container">
+        <h1 class="fade-in">About me</h1>
+        <p class="fade-in" style="transition-delay:0.08s;">This page is on its way. Let's build it next.</p>
+        <a class="back-link fade-in" href="index.html" style="transition-delay:0.16s;">&larr; Back to home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p>Tassiane Medeiros</p>
+      </div>
+      <div class="footer-sections">
+        <h3>Sections</h3>
+        <ul>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="projects.html">Personal projects</a></li>
+          <li><a href="contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Tassiane Medeiros. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
